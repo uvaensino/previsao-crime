@@ -16,6 +16,11 @@ footer {visibility: hidden;}
 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
+st.image(
+    "logo.jpg", 
+    width=250  # Ajuste o tamanho conforme desejar
+)
+
 
 # Dicionários de Conversão
 natureza_roubo = {
